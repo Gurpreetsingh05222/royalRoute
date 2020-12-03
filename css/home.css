@@ -126,6 +126,14 @@ body {
   .nav .container{
     flex-direction: column;
   }
+
+  .nav ul{
+    padding: 0;
+  }
+
+  #hero{
+    height: 40vh;
+  }
   
   #hero>h1{
     display: none;
