@@ -176,6 +176,7 @@ img:hover {
 /* RESPONSIVE LAYOUT */
 
 @media only screen and (max-width: 450px) {
+  /* NAVBAR */
   .nav .container {
     flex-direction: column;
   }
@@ -188,6 +189,8 @@ img:hover {
     padding: 0 5px;
   }
 
+  /* HERO */
+
   #hero {
     height: 30vh;
   }
@@ -198,6 +201,7 @@ img:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  /* NAVBAR */
   .nav .container {
     flex-direction: column;
   }
@@ -205,6 +209,8 @@ img:hover {
   .nav ul {
     padding: 0;
   }
+
+  /* HERO */
 
   #hero {
     height: 40vh;
@@ -214,13 +220,19 @@ img:hover {
     display: none;
   }
 
+  /* DESTINATION */
+
   .places {
     flex-direction: column;
   }
 
+  /* REVIEW */
+
   .customer {
     flex-direction: column;
   }
+
+  /* FOOTER */
 
   .foo-link {
     flex-direction: column;
