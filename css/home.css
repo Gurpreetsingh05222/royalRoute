@@ -91,7 +91,7 @@ img:hover {
 }
 
 /* DESTINATION */
-#trending{
+#trending {
   padding: 50px 0;
 }
 .places {
@@ -110,18 +110,18 @@ img:hover {
 }
 
 /* TESTIMONIAL */
-.testimonial{
-  background-color: #343A40;
+.testimonial {
+  background-color: #343a40;
   color: white;
   padding: 0 0 50px 0;
 }
 
-.customer{
+.customer {
   display: flex;
   /* flex-direction: row; */
 }
 
-.review img{
+.review img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -129,11 +129,11 @@ img:hover {
 
 /* NEWSLETTER */
 
-.newsletter{
+.newsletter {
   padding: 50px 0;
 }
 
-.newsletter input[type=text] {
+.newsletter input[type="text"] {
   width: 40%;
   padding: 12px 20px;
   margin: 8px;
@@ -145,7 +145,7 @@ img:hover {
 
 .newsletter button {
   width: 70px;
-  background-color: #343A40;
+  background-color: #343a40;
   color: white;
   padding: 14px 20px;
   margin: 8px;
@@ -155,19 +155,19 @@ img:hover {
 }
 
 /* FOOTER */
-.footer{
-  background-color: #1F1F1F;
+.footer {
+  background-color: #1f1f1f;
   color: #fff;
-  padding: 20px 0 ;
+  padding: 20px 0;
 }
 
-.foo-link{
+.foo-link {
   margin: auto;
   display: flex;
   width: 50%;
 }
 
-.footer a{
+.footer a {
   text-decoration: none;
   color: #fff;
   margin: 0 5%;
@@ -218,15 +218,15 @@ img:hover {
     flex-direction: column;
   }
 
-  .customer{
+  .customer {
     flex-direction: column;
   }
 
-  .foo-link{
+  .foo-link {
     flex-direction: column;
   }
 
-  .footer a{
+  .footer a {
     margin: 10px 0;
   }
 }
