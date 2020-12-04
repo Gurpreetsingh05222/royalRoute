@@ -147,7 +147,6 @@ body {
 
 .customer {
   display: flex;
-  /* flex-direction: row; */
 }
 
 .review img {
