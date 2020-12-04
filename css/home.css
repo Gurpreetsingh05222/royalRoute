@@ -74,7 +74,7 @@ body {
   background: url("../assets/main1.jpg") no-repeat;
   background-size: cover;
   margin-top: 80px;
-  width: 100vw;
+  width: 98.7vw;
   height: 70vh;
 }
 
@@ -102,7 +102,7 @@ body {
 
 .destination img {
   width: 90%;
-  height: 200px;
+  height: 280px;
 }
 
 .destination img:hover {
