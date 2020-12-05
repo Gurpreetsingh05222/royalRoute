@@ -84,7 +84,7 @@ body {
 
 /* HERO  */
 #hero {
-  background: url("../assets/palace1.jpg") no-repeat;
+  background: url("../assets/hero.jpg") 100% no-repeat;
   background-size: cover;
   width: 98.7vw;
   height: 70vh;
@@ -107,14 +107,14 @@ body {
 }
 
 .about>p{
-  text-align: left;
+  text-align: justify;
   font-size: 20px;
 }
 
 /* DESTINATION */
 #trending {
   font-family: 'Raleway', sans-serif;
-  padding: 50px 0;
+  padding: 5px 0;
 }
 .places {
   display: flex;
@@ -135,8 +135,34 @@ body {
 .destination img:hover {
   transform: scale(1.1);
   transition: transform 0.5s cubic-bezier(0.7, -0.39, 0.5, 1.5);
+  opacity:0.7
 }
 
+/* ACTIVITIES */
+#activities {
+  font-family: 'Raleway', sans-serif;
+  padding: 5px 0;
+}
+.activity_type {
+  display: flex;
+  justify-content: center;
+}
+
+.activity_detail{
+  text-align: center;
+  margin: 10px;
+}
+
+.activity_detail img {
+  width: 90%;
+  height: 280px;
+}
+
+.activity_detail img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s cubic-bezier(0.7, -0.39, 0.5, 1.5);
+  opacity:0.7
+}
 
 /* TESTIMONIAL */
 .testimonial {
@@ -256,6 +282,10 @@ body {
     flex-direction: column;
   }
 
+  /* ACTIVITIES */
+  .activity_type{
+    flex-direction: column;
+  }
   /* REVIEW */
 
   .customer {
