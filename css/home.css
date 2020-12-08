@@ -84,7 +84,7 @@ body {
 
 /* HERO  */
 #hero {
-  background: url("../assets/hero.jpg") 100% no-repeat;
+  background: url("../assets/dharu_1.jpg") 100% bottom no-repeat;
   background-size: cover;
   width: 98.7vw;
   height: 70vh;
@@ -97,10 +97,11 @@ body {
   margin-left: 35%;
   font-size: 40px;
   color:white;
+  text-shadow: 4px 5px 6px black;
 }
 #hero_city {
-  background: url("../assets/cities_hero.jpg") 100% no-repeat;
-  background-size: cover;
+  background: url("../assets/city_2.png") top no-repeat ;
+  background-size: 1500px 800px;
   width: 98.7vw;
   height: 70vh;
 }
@@ -112,6 +113,7 @@ body {
   margin-left: 35%;
   font-size: 40px;
   color:white;
+  text-shadow: 4px 5px 6px black;
 }
 
 /* ABOUT */
