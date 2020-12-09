@@ -149,8 +149,8 @@ body {
 }
 
 .destination>img:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s cubic-bezier(0.7, -0.39, 0.5, 1.5);
+  transform: scale(1.05);
+  transition: transform 0.3s cubic-bezier(0.7, -0.39, 0.5, 1.5);
   opacity:0.7
 }
 .destination p a{
@@ -187,8 +187,8 @@ body {
 }
 
 .activity_detail>img:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s cubic-bezier(0.7, -0.39, 0.5, 1.5);
+  transform: scale(1.05);
+  transition: transform 0.3s cubic-bezier(0.7, -0.39, 0.5, 1.5);
   opacity:0.7
 }
 
