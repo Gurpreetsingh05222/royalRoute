@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 /* GLOBAL */
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0;
   width: 100%;
   font-family: sans-serif;
@@ -41,8 +40,8 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.container .logo{
-  font-family: 'Tangerine', cursive;
+.container .logo {
+  font-family: "Tangerine", cursive;
   font-size: 50px;
 }
 
@@ -84,58 +83,57 @@ body {
 
 /* HERO  */
 #hero {
-  background: url("../assets/dharu_1.jpg") 100% bottom no-repeat;
-  background-size: cover;
-  width: 98.7vw;
+  background: url("../assets/dharu_1.jpg") bottom no-repeat; 
+  background-size: 100%; 
   height: 70vh;
 }
 
 #hero > h1 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
   position: absolute;
   margin-top: 15%;
   margin-left: 35%;
   font-size: 40px;
-  color:white;
+  color: white;
   text-shadow: 4px 5px 6px black;
 }
 #hero_city {
-  background: url("../assets/city_2.png") top no-repeat ;
+  background: url("../assets/city_2.png") top no-repeat;
   background-size: 1500px 800px;
   width: 98.7vw;
   height: 70vh;
 }
 
 #hero_city > h1 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative", cursive;
   position: absolute;
   margin-top: 15%;
   margin-left: 35%;
   font-size: 40px;
-  color:white;
+  color: white;
   text-shadow: 4px 5px 6px black;
 }
 
 /* ABOUT */
-.about{
-  font-family: 'Raleway', sans-serif;
+.about {
+  font-family: "Raleway", sans-serif;
   width: 90%;
   margin: auto;
 }
 
-.about>p{
+.about > p {
   text-align: justify;
   font-size: 20px;
 }
 
 /* DESTINATION */
 #trending {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 5px 0;
 }
+
 .places {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -143,32 +141,33 @@ body {
   text-align: center;
   margin: 10px;
 }
-.destination img {
+
+.destination > img {
   width: 395px;
   height: 280px;
 }
 
-.destination>img:hover {
+.destination > img:hover {
   transform: scale(1.05);
   transition: transform 0.3s cubic-bezier(0.7, -0.39, 0.5, 1.5);
-  opacity:0.7
+  opacity: 0.7;
 }
-.destination p a{
+.destination p a {
   text-decoration: none;
-  margin-left:65%;
+  margin-left: 65%;
   font-size: medium;
   color: #000;
   border-bottom: 1px dotted;
 }
-.destination p a:hover{
+
+.destination p a:hover {
   color: white;
   background-color: rgb(124, 2, 2);
-
 }
 
 /* ACTIVITIES */
 #activities {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 5px 0;
 }
 .activity_type {
@@ -176,7 +175,7 @@ body {
   justify-content: center;
 }
 
-.activity_detail{
+.activity_detail {
   text-align: center;
   margin: 10px;
 }
@@ -186,17 +185,17 @@ body {
   height: 280px;
 }
 
-.activity_detail>img:hover {
+.activity_detail > img:hover {
   transform: scale(1.05);
   transition: transform 0.3s cubic-bezier(0.7, -0.39, 0.5, 1.5);
-  opacity:0.7
+  opacity: 0.7;
 }
 
 /* TESTIMONIAL */
 .testimonial {
-  background-color: #343a40;
-  color: white;
-  padding: 0 0 50px 0;
+  /* background-color: #343a40; */
+  color: black;
+  /* padding: 0 0 50px 0; */
 }
 
 .customer {
@@ -213,8 +212,7 @@ body {
 
 .newsletter {
   padding: 50px 0;
-  font-family: 'Raleway', sans-serif;
-
+  font-family: "Raleway", sans-serif;
 }
 
 .newsletter input[type="text"] {
@@ -282,6 +280,14 @@ body {
   #hero > h1 {
     display: none;
   }
+
+  .destination img {
+    width: 340px;
+  }
+
+  .activity_detail img {
+    width: 340px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -311,7 +317,7 @@ body {
   }
 
   /* ACTIVITIES */
-  .activity_type{
+  .activity_type {
     flex-direction: column;
   }
   /* REVIEW */
