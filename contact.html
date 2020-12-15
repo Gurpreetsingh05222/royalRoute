@@ -6,20 +6,59 @@
     <title>Royal Route</title>
     <link rel="stylesheet" href="css/home.css" />
     <style>
-      .footer{
+      .form{
+        display: flex;
+      }
+
+      form{
+        width: 100%;
+      }
+
+      input,
+      textarea {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"] {
+        width: 10%;
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .map img{
+        width: 80%;
+        padding-top: 30px;
+      }
+
+      .footer {
         margin-top: 50px;
       }
     </style>
   </head>
   <body>
-     <!-- NAVIGATION -->
-     <nav class="nav">
+    <!-- NAVIGATION -->
+    <nav class="nav">
       <div class="container">
         <h1 class="logo"><a href="#">Royal Route</a></h1>
         <ul>
           <li><a href="index.html" class="current">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="destination.html">Destination</a></li>
+          <li><a href="cities/city.html">Destination</a></li>
           <li><a href="#">Booking</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -28,28 +67,56 @@
     <!-- END NAVIGATION -->
 
     <!-- Hero Section -->
-    <main id="hero">
+    <header id="hero">
       <!-- <img src="/assets/hero.jpg" alt="This is Hero Image" /> -->
       <h1>Royal Route Tourism</h1>
-    </main>
+    </header>
     <!-- END HERO -->
     <!-- Contact Section -->
-    <section class="about">
+    <main class="contact">
       <h2>Contact</h2>
-      
-    </section>
-    <!--END Contact-->
-     <!-- FOOTER SECTION -->
-     <footer class="footer">
-        <div class="foo-link">
-          <a href="#">Sitemap</a>
-          <a href="review.html">Reviews</a>
-          <a href="destination.html">Explore</a>
-          <a href="about.html">About Us</a>
-          <a href="contact.html">Contact Us</a>
+      <div class="form">
+        <form action="">
+          <label for="fname">Name:</label><br>
+          <input type="text" id="fname" name="fname" placeholder="Name" /><br />
+          <label for="email">Email:</label><br>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+          /><br />
+          <label for="phone">Contact:</label><br>
+          <input type="text" name="phone" placeholder="Contact Number" /><br />
+          <label for="feedback">Message:</label><br>
+          <textarea
+            name="message"
+            id="feedback"
+            cols="25"
+            rows="5"
+            placeholder="Please write your query..."
+          ></textarea
+          ><br /><br />
+          <input type="submit" value="Send" /><br /><br />
+        </form>
+        <div class="map">
+          <img src="/assets/city_1.jpg" alt="">
         </div>
-        <h3>Copyright &copy; Royal Route</h3>
-      </footer>
-      <!-- END FOOTER -->
-    </body>
-  </html>
+      </div>
+    </main>
+    <!--END Contact-->
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="foo-link">
+        <a href="#">Sitemap</a>
+        <a href="review.html">Reviews</a>
+        <a href="destination.html">Explore</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <h3>Copyright &copy; Royal Route</h3>
+    </footer>
+    <!-- END FOOTER -->
+  </body>
+</html>
