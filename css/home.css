@@ -297,20 +297,32 @@ body {
     flex-direction: column;
   }
 
+  .nav{
+    position: relative;
+  }
+  
   .nav ul {
+    /* flex-direction: column; */
     padding: 0;
   }
-
+  
+  .nav ul li a{
+    font-size: 10px;
+    color: #000;
+  }
+  
   .nav a {
     padding: 0 5px;
+    color: #000;
   }
 
   /* HERO */
 
   #hero {
-    height: 30vh;
+    height: auto;
+    background-size: auto;
   }
-
+  
   #hero > h1 {
     display: none;
   }
@@ -373,6 +385,10 @@ body {
 
   .customer {
     flex-direction: column;
+  }
+
+  .testimonial{
+    display: none;
   }
 
   /* FOOTER */
