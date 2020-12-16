@@ -145,6 +145,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   margin: 10px;
+  transition: 0.3s;
 }
 
 .destination:hover {
@@ -188,6 +189,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   margin: 10px;
+  transition: 0.3s;
 }
 
 .activity_detail:hover {
