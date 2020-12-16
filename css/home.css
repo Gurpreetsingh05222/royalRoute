@@ -307,7 +307,7 @@ body {
   }
   
   .nav ul li a{
-    font-size: 10px;
+    font-size: 15px;
     color: #000;
   }
   
@@ -342,6 +342,14 @@ body {
     flex-direction: column;
   }
 
+  .nav {
+    position: relative;
+  }
+
+  .nav a{
+    color: #000;
+  }
+
   .nav ul {
     margin: 0;
     padding: 0;
@@ -350,6 +358,7 @@ body {
   .nav ul a{
     padding: 0 10px;
     font-size: 25px;
+    /* color: #000; */
   }
 
   /* HERO */

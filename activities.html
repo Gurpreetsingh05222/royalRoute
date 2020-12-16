@@ -10,39 +10,17 @@
         font-family: "Raleway", sans-serif;
       }
 
-      .activity {
-        padding-left: 10px;
+      .heading{
+        font-size: large;
+        font-weight: 900;
       }
 
-      .hiking {
-        display: flex;
-        justify-content: center;
-        border-left: 10px solid lightgreen;
+      .activity_detail{
+        width: 100%;
       }
 
-      .hiking img {
-        margin: auto;
-        width: 80%;
-        height: 250px;
-        padding: 30px;
-      }
-
-      .hiking p {
-        padding: 50px;
-      }
       .footer {
         margin-top: 50px;
-      }
-
-      @media only screen and (max-width: 768px) {
-        .hiking {
-          flex-direction: column;
-          border: none;
-        }
-
-        .hiking p {
-          padding: 0;
-        }
       }
     </style>
   </head>
@@ -64,62 +42,76 @@
 
     <!-- Header Section -->
     <header id="hero">
-      <!-- <img src="/assets/hero.jpg" alt="This is Hero Image" /> -->
       <h1>Royal Route Tourism</h1>
     </header>
     <!-- END HEADER-->
 
     <!-- Main Section -->
-    <main class="main">
-      <h1>Must Do Activities in Switzerland</h1>
-      <div class="activity">
-        <h3>Hiking</h3>
-        <div class="hiking">
-          <img src="assets/city/activity/hiking.jpg" alt="" />
+    <main id="activities">
+      <h2>Activities Must DO in Switzerland</h2>
+      <div class="activity_type">
+        <div class="activity_detail">
+          <p class="heading">HIKING<br /></p>
+          <img src="assets/hiking.jpg" alt="Dest image" />
           <p>
-            Switzerland is the greatest hiking and walking destination in the
-            world. The land is crisscrossed by more than 40,000 miles (65,000
-            km) of marked hiking and walking paths, of which over 13,600 miles
-            (22,000 km) are mountain trails. Hiking and walking is a way of life
-            in Switzerland, where nearly half of the Swiss population hikes
-            regularly. Hiking is one of the favorite pastimes in this country
-            where over 80% of the Swiss population use the nation’s network of
-            footpaths for hiking, running, walking, and other activities. On
-            average, Swiss hikers enjoy 20 hikes per year, each averaging about
-            three hours. The price of maintaining one kilometer of trail for a
-            year is about $800—not cheap—but the Swiss see that as a great
-            investment in quality of life and personal well-being. Switzerland's
-            superb network of hiking trails is a source of natioal pride and
-            civic enjoyment. Alpenwild, with over 20 years of experience guiding
-            trips in Switzerland, offers a variety of hiking, trekking, and
-            walking tours in the Alps. We know all the best spots in the Alps,
-            ensuring a trip of a lifetime.
+            Sweaty vests, blisters on the feet and Spartan picnic beaks such an
+            image of walking belongs in the past. Today the focus is on pure
+            pleasure, good experiences and taking active breaks in unspoiled
+            nature.
           </p>
         </div>
+        <div class="activity_detail">
+          <p class="heading">PARAGLINDING<br /></p>
+          <img src="assets/paraglinding.jpg" alt="Dest image" />
+          <p>
+            Gives you a bird’s eye view of most beautiful places in Switzerland.
+            Moreover, Adventure seeker can look forward to an unforgettable
+            tandem paraglider flight with a view over lake Geneva.
+          </p>
+        </div>
+        <div class="activity_detail">
+          <p class="heading">RIVERRAFTING<br /></p>
+          <img src="assets/riverrafting.jpg" alt="Dest image" />
+          <p>
+            Despite how it seems, mountaineers are far from the only adventures
+            seeking excitement in the country. The diverse setting and stretches
+            of the waterways are ideal for river rafting.
+          </p>
+        </div>
+      </div>
 
-        <h3>Paragliding</h3>
-        <div class="hiking">
-          <img src="assets/city/activity/hiking.jpg" alt="" />
-          <p>
-          Switzerland is the greatest hiking and walking destination in the
-            world. The land is crisscrossed by more than 40,000 miles (65,000
-            km) of marked hiking and walking paths, of which over 13,600 miles
-            (22,000 km) are mountain trails. Hiking and walking is a way of life
-            in Switzerland, where nearly half of the Swiss population hikes
-            regularly. Hiking is one of the favorite pastimes in this country
-            where over 80% of the Swiss population use the nation’s network of
-            footpaths for hiking, running, walking, and other activities. On
-            average, Swiss hikers enjoy 20 hikes per year, each averaging about
-            three hours. The price of maintaining one kilometer of trail for a
-            year is about $800—not cheap—but the Swiss see that as a great
-            investment in quality of life and personal well-being. Switzerland's
-            superb network of hiking trails is a source of natioal pride and
-            civic enjoyment. Alpenwild, with over 20 years of experience guiding
-            trips in Switzerland, offers a variety of hiking, trekking, and
-            walking tours in the Alps. We know all the best spots in the Alps,
-            ensuring a trip of a lifetime.
+      <div class="activity_type">
+        <div class="activity_detail">
+          <p class="heading">Moutain Biking<br /></p>
+          <img src="assets/mountain_biking.jpg" alt="Dest image" />
+          <p style="width: 100%;">
+            With the mountain bike on spectacular single trails through the
+            Alps, along the hills of the Jura from Basel to Lake Geneva, or
+            through the Alpine foothills and across the entire country of
+            Switzerland.
           </p>
         </div>
+        <!-- <div class="activity_type"> -->
+        <div class="activity_detail">
+          <p class="heading">Road Cycling<br /></p>
+          <img src="assets/road_cycling.jpg" alt="Dest image" />
+          <p>
+            Superb roads, unspoilt scenery: Switzerland is a paradise for
+            devotees of road cycling. Level cycling paths by lakes.
+          </p>
+        </div>
+        <!-- </div> -->
+        <!-- <div class="activity_type"> -->
+        <div class="activity_detail">
+          <p class="heading">Ice Climbing<br /></p>
+          <img src="assets/ice_climbing.jpg" alt="Dest image" />
+          <p>
+            The Swiss Alpine Guides' mountain guides will show you the
+            magnificent world of eternal ice and teach you how to use ropes,
+            pick-axe and pitons.
+          </p>
+        </div>
+        <!-- </div> -->
       </div>
     </main>
     <!--END MAIN-->
