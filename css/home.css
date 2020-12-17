@@ -87,7 +87,7 @@ body {
 
 /* HERO  */
 #hero {
-  background: url("../assets/city_2.png") top no-repeat;
+  background: url("../assets/city_2.png") center no-repeat;
   background-size: 100%;
   height: 70vh;
 }
@@ -346,7 +346,7 @@ p1{
     width: 340px;
   }
 
-  .activity_detail img {
+  .activity_detail a img {
     width: 340px;
   }
 }
@@ -398,13 +398,23 @@ p1{
   }
 
   .destination>a>img{
-    width: 70%;
+    width: 80%;
   }
 
   /* ACTIVITIES */
   .activity_type {
     flex-direction: column;
   }
+
+  .activity_detail{
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .activity_detail a img{
+    width: 80%;
+  }
+
   /* REVIEW */
 
   .customer {
